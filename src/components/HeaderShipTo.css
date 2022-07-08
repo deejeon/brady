@@ -1,0 +1,14 @@
+.headershipto-container {
+    height: 60px;
+    display: flex;
+    width: 70%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.headershipto-questions {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c3c3c;
+    margin-bottom: 10px;
+}

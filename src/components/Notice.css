@@ -1,4 +1,5 @@
 .notice-container {
+    width: 100%;
     height: 62px;
     background: #0280E6;
     display: flex;
