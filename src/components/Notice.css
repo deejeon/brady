@@ -1,0 +1,14 @@
+.notice-container {
+    height: 62px;
+    background: #0280E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notice-content {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: white;
+}
