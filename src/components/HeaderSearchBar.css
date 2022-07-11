@@ -1,0 +1,48 @@
+.section-background {
+    background-color: #0180E6;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form {
+    width: 45%;
+    height: 55%;
+    display: flex;
+    /* padding: 2px; */
+    /* border: 1px solid currentColor; */
+    border-radius: 5px;
+
+}
+
+.searchbar {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+input[type="search"] {
+    border: none;
+    background: white;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 15px;
+    color: inherit;
+}
+
+button[type="submit"] {
+    text-indent: -85px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent;
+    cursor: pointer;
+}
+
+.searchicon {
+    color: #0180E6;
+}
