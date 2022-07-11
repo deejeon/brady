@@ -1,5 +1,7 @@
 import React from "react";
 import "./HeaderMain.css";
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 function HeaderMain() {
     return (
@@ -15,14 +17,14 @@ function HeaderMain() {
                         <p className="words-myaccount">My Account</p>
                         <p className="words-signin">Sign In / Register</p>
                     </div>
-                    <img src="" alt="" className="account-icon" />
+                    <AccountBoxIcon className="blueicon" sx={{ fontSize: 30 }} />
                 </div>
                 <div className="accountcart-cart">
                     <div className="cart-words">
                         <p className="words-mycart">My Cart</p>
                         <p className="words-itemsprice">0 items - $0.00</p>
                     </div>
-                    <img src="" alt="" className="cart-icon" />
+                    <ShoppingCartIcon className="blueicon" sx={{ fontSize: 30 }} />
                 </div>
             </div>
         </div>

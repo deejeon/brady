@@ -4,3 +4,8 @@
     flex-direction: column;
     align-items: center;
 }
+
+.coloredline {
+    width: 100px;
+    size: 5px;
+}
