@@ -1,10 +1,12 @@
 import React from "react";
 import "./NavDropdown.css";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
-function NavDropdown() {
+const NavDropdown = props => {
     return (
-        <div>
-
+        <div className="navdropdown">
+            <p className="titlemessage">{ props.titlemessage }</p>
+            <KeyboardArrowDownIcon className="dropdown-icon" />
         </div>
     );
 };

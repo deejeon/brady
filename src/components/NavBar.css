@@ -1,8 +1,9 @@
 .navbar {
     height: 60px;
     display: flex;
-    width: 70%;
-    align-items: flex-end;
-    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
     background-color: #1E3768;
+    padding-left: 36rem;
 }

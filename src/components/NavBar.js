@@ -5,10 +5,10 @@ import NavDropdown from './NavDropdown';
 function NavBar() {
     return (
         <div className="navbar">
-            <NavDropdown />
-            <NavDropdown />
-            <NavDropdown />
-            <NavDropdown />
+            <NavDropdown titlemessage="Shop By Product" />
+            <NavDropdown titlemessage="About Us" />
+            <NavDropdown titlemessage="Services" />
+            <NavDropdown titlemessage="Locations" />
         </div>
     );
 };
